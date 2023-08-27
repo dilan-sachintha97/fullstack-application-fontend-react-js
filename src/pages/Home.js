@@ -15,7 +15,7 @@ const Home = () => {
   }
 
   return (
-    <div className='container'>
+    <div className='container py-3'>
        <div className="py-3">
           <table className="table  shadow table-striped">
             <thead>
