@@ -1,6 +1,6 @@
 import axios from 'axios';
 import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 const AddUser = () => {
 
@@ -66,8 +66,8 @@ const AddUser = () => {
                     </div>
 
                     <div className="mb-3 d-flex justify-content-end">
-                        <button className='btn btn-outline-primary mx-1'>Submit</button>
-                        <button className='btn btn-outline-danger mx-1'>Cancel</button>
+                        <button type='submit' className='btn btn-outline-primary mx-1'>Submit</button>
+                        <Link className='btn btn-outline-danger mx-1' to="/">Cancel</Link>
                     </div>
                 </div>
                 </form>
